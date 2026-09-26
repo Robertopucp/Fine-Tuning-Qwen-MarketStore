@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Checkpoints y artefactos de entrenamiento
+notebooks/outputs_*/
+notebooks/minimarket_lora/
+notebooks/minimarket_la_esquina_merged/
+unsloth_compiled_cache/
+**/unsloth_compiled_cache/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
